@@ -1,0 +1,58 @@
+// Pull in variables LESS File
+@import "variables";
+@import "mixins";
+
+
+header {
+  background: @yellow;
+  width: 100%;
+  .nav-link {
+    .link();
+  }
+}
+
+
+.heading-1 {
+  .heading();
+  color: @black;
+  text-transform: uppercase;
+}
+
+.low-heading {
+  .heading();
+  color: @black;
+  text-transform: lowercase;
+}
+
+.red-span {
+  .heading();
+  color: @red;
+  text-transform: uppercase;
+}
+
+button {
+  .link-uc();
+  background-color: @yellow;
+  border: 0px;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+.cta-link {
+  .link();
+  text-transform: uppercase;
+  color: @red !important;
+}
+
+.jumbotron {
+  background-image: url('../img/banner-bg.png');
+  h1 {
+    display: none;
+  }
+}
+
+footer {
+  background-color: @black;
+  border-top: 10px solid @yellow;
+  padding: 25px 0;
+}

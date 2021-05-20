@@ -1,0 +1,27 @@
+// Mixins to condense styles
+
+.heading {
+  font-family: @font;
+  font-size: @f-size;
+  font-weight: 500;
+}
+
+.link {
+  font-family: @font;
+  font-size: @f-size - 12px;
+  font-weight: 500;
+  color: @black;
+}
+
+.link-uc {
+  .link();
+  text-transform: uppercase;
+}
+
+p {
+  font-family: @font;
+  font-weight: 400;
+  font-size: @f-size - 14px;
+  color: @black;
+
+}
