@@ -19,7 +19,7 @@
   <body>
     <header>
       <nav class="navbar container">
-        <ul class="nav">
+        <ul class="nav py-4">
           <li class="nav-link">Home</li>
           <li class="nav-link">Menu</li>
           <li class="nav-link">About Us</li>
@@ -29,39 +29,48 @@
     </header>
     
     <main>
-      <section class="jumbotron d-flex flex-column justify-content-center align-items-center">
-        <h1>Bob's Burgers</h1>
-        <img class="col-4" src="img/logo.png" alt="Bob's Burgers" title="Bob's Burgers">
-        <button class="col-1.75">Order Now</button>
-      </section>
-
-      <section class="container d-flex flex-row">
-        <div>
-          <h2 class="heading-1">World's Best Burgers</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa.</p>
-          <button>View Menu</button>
+      <section class="jumbotron">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+          <h1>Bob's Burgers</h1>
+          <img class="col-5" src="img/logo.png" alt="Bob's Burgers" title="Bob's Burgers">
+          <button class="col-2">Order Now</button>
         </div>
-        <img src="img/bobs-burger.png" alt="Burger" title="Burger">
+      </section>
+    
+      <section class="best-burgers py-5">
+        <div class="container d-flex flex-row justify-content-start">
+          <div class="col-8">
+            <h2 class="heading-1">World's Best Burgers</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa.</p>
+            <button>View Menu</button>
+          </div>
+          <img class="px-5" src="img/bobs-burger.png" alt="Burger" title="Burger">
+        </div>
       </section>
 
-      <section class="container d-flex flex-row">
-        <img src="img/bob-headshot.png" alt="Bob" title="Bob">
-        <div>
-          <h2><span class="heading-1">Dine-in</span> or <span class="red-span">Take-out</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa.</p>
-          <button>Contact Us</button>
+      <section class="dine-in py-5">
+        <div class="container d-flex flex-row justify-content-end">
+          <img class="px-5" src="img/bob-headshot.png" alt="Bob" title="Bob">
+          <div class="col-8">
+            <h2><span class="heading-1">Dine-in</span> or <span class="red-span">Take-out</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa.</p>
+            <button>Contact Us</button>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="w-100 d-flex justify-content-center">
-      <img src="img/logo.png" alt="Bob's Burgers" title="Bob's Burgers">
+    <footer>
+      <div class="container d-flex justify-content-center">
+        <img class="col-3" src="img/logo.png" alt="Bob's Burgers" title="Bob's Burgers">
+      </div>
+      
     </footer>
 
     <!-- Optional Bootstrap JavaScript -->
